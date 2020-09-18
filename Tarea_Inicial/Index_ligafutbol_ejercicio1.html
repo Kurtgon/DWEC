@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Liga de Futbol</title>
+    </head>
+    <body>
+        <h1 align="center">Bienvenidos a la Liga BBVA</h1>
+        <div id="tabla">
+            <table align="center" border="1">
+                <caption>Liga BBVA.Clasificación</caption>
+                <tr>
+                    <td>Posición</td>
+                    <td>Equipo</td>
+                    <td>Puntos</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>FC Barcelona</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Real Madrid</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Atlético de Madrid</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Sevilla FC</td>
+                    <td>9</td>
+                </tr>
+            </table>
+            &nbsp
+            <form action="/Index_ligafutbol" method="POST">
+                <label for ="posicion">Posición</label>
+                <input type ="text" id="posicion">
+                <label for ="equipo">Equipo</label>
+                <input type ="text" id="equipo">
+                <label for ="puntos">Puntos</label>
+                <input type ="text" id="puntos">
+                <input type="button" id="boton" value="Aplicar" onclick="add()">
+            </form>
+        </div>
+        <script type="text/javascript" src="./Index_ligafutbol.js"></script>
+    </body> 
+</html>
