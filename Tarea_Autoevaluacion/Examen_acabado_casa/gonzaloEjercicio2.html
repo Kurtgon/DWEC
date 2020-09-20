@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 2</title>
+    </head>
+    <body>
+        <h1 align="center">Número total de empleados: 3</h1>
+        <table id= tabla align="center" border="1">
+            <tr>
+                <td>Número de empleado</td>
+                <td>DNI</td>
+                <td>Nombre</td>
+                <td>Apellidos</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>77332344K</td>
+                <td>María</td>
+                <td>Pérez izquierdo</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>23445677J</td>
+                <td>Javier</td>
+                <td>López Martínez</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>12345678H</td>
+                <td>Manuel</td>
+                <td>Sánchez Martos</td>
+            </tr>
+        </table>
+        <br>
+        <form>
+            <input id="dni" type="text" placeholder="DNI" value="">
+            <input id="nombre" type="text" placeholder="Nombre" value="">
+            <input id="apellidos" type="text" placeholder="Apellidos" value="">
+        </form>
+        <button id="botonAdd"onclick="add()">Insertar Empleado</button>
+        <button id="botonEliminar"onclick="borrar()">Borrar Empleado</button>
+        <button id="botonModificar"onclick="modificar()">Modificar Empleado</button>
+        <script type="text/javascript" src="./gonzaloEjercicio2.js"></script>
+    </body>
+</html>
