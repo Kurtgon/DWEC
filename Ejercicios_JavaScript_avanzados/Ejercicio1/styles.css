@@ -1,0 +1,12 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.boxVerde {
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+
