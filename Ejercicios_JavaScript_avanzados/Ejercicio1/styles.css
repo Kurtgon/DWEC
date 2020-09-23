@@ -10,3 +10,33 @@
     background: green;
 }
 
+#cajaTexto {
+    margin: 20px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3em;
+    width: 200px;
+}
+
+.gallery_item {
+  width: 150px;
+  height: 90px;
+  border: solid 1px black;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  
+}
+.gallery_click {
+    width: 150px;
+    height: 90px;
+    border: solid 1px black;
+    background: #19167e;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    
+  }
