@@ -1,0 +1,174 @@
+#general{
+    height: 100%;
+    background-image: url("./imagenes/tapete.jpg");
+}
+
+#cabecera {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+#jugadorCabecera{
+    float:left;
+    width: 400px; 
+    height: 55px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+    color:white;
+}
+
+#bancaCabecera{
+    float:left; 
+    width: 505px; 
+    height: 55px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+    color:white;
+}
+
+#botonPlantarse{
+    margin-top: -20px;
+    background: transparent;
+    border: 2px solid #cc0700;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    color:white;
+}
+
+#botonPlantarse:hover{
+    background-color: #cc0700;
+    color:white;
+}
+
+#puntosJugador{
+    margin-left: 290px;
+    margin-top: -16px;
+    width: 40px; 
+    height: 18px; 
+    text-align:center;
+    font-size: 16px;
+    background-color: red;
+}
+
+#puntosBanca{
+    margin-left: 342px;
+    margin-top: -16px;
+    width: 40px; 
+    height: 18px; 
+    text-align:center;
+    font-size: 16px;
+    background-color: red;
+    }
+
+#body {
+    margin-left: 50px; 
+    margin-top:0px; 
+    height: 600px; 
+    width: 1176px;
+}
+
+#jugador {    
+    width: 586px; 
+    height: 480px; 
+    float:left;
+}
+
+#cartaAleatoriaJugador{
+    height: 270px; 
+    width: 181px; 
+    margin-top: 40px; 
+    margin-left: 40px;
+    }
+
+#cartaJugador{
+    padding-left: 50px;
+    height: 250px; 
+    width: 161px; 
+    margin-top: 40px; 
+    margin-left: 40px; 
+}
+
+#allCartasJugador{
+    padding-top: 10px;
+    height: 122px;
+    width: 33px; 
+    margin-top: 10px;
+    margin-left: 31px;
+}
+
+.miniatura{
+    height: 122px; 
+    margin-left: 31px
+}
+
+#banca { 
+    width: 586px; 
+    height: 480px; 
+    float:left;
+}
+
+#cartaAleatoriaBanca{
+    height: 270px; 
+    width: 181px; 
+    margin-top: 40px; 
+    margin-left: 40px;
+    }
+
+#cartaBanca{
+    padding-left: 50px;
+    height: 250px; 
+    width: 161px; 
+    margin-top: 40px; 
+    margin-left: 40px; 
+}
+
+#allCartasBanca{
+    padding-top: 10px;
+    height: 122px;
+    width: 33px; 
+    margin-top: 10px;
+    margin-left: 31px;
+}
+
+#footer{
+    float:top;
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+
+  #pieGanador, #divReiniciar{
+      float: left;
+      width: 30%;
+      
+  }
+
+  #ganador{
+    margin-left: 40px;
+    font-size: 22px;
+    width: 2200px;
+  }
+
+  #reiniciar{
+    height: 58px;
+    margin-left: 100px;
+    margin-top: 11px;
+    background: transparent;
+    border: 2px solid #cc0700;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    color:white;
+  }
+
+  #reiniciar:hover{
+    background-color: #cc0700;
+    color:white;
+}
