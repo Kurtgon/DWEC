@@ -1,0 +1,44 @@
+/*Todos los elementos de la página*/
+* {
+    text-align: center;
+    box-sizing: border-box;
+}
+/* Fondo y color del texto*/
+body {
+    background: black;
+    color: black;
+    font-family:'Crimson Pro';
+}
+/*Fondo del reloj*/
+.main{
+    margin: 10%;
+    padding: 10px;
+    background: #5c5d4c;
+}
+/*Tamaño de la fuente del reloj*/
+.reloj{
+    font-size: 2em;
+}
+/*Tamaño y posición de la hora*/
+#horaReloj{
+    width: 100%;
+    padding: 10px;
+    font-size: 3em;
+}
+
+#alarma{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  
+}
+
+#alarma:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
