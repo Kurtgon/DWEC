@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio Validación de Formulario</title>
+        <link rel="stylesheet" type="text/css" href="./ValidacionFormularioGonzalo.css" media="screen">
+        <!-- Usar la api de fonts de google para elegir una fuente en concreto -->
+        <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Roboto">
+    </head>
+    <body>
+        <form id="formulario">
+            <h1>Formulario</h1>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label>DNI: <input id="dni" type="text" name="dni" size="10" placeholder="dni"></label>
+                <label>Email: <input id="email" type="email" name="email" size="20" placeholder="email"></label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Datos Bancarios</legend>
+                <label>Cuenta Bancaria: <input id="cuentaBancaria" Type="text" name="cuentaBancaria" placeholder="Cuenta Bancaria" size="20"></label>
+                <label>Tarjeta de Crédito: <input id="tarjeta" type="text" name="tarjeta" placeholder="tarjeta de crédito" size="20"></label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Datos del Usuario</legend>
+                <label>Nombre Usuario: <input id="usuario" type="text" name="usuario" placeholder="usuario" size="20"></label>
+                <label>Password: <input id="password" type="password" name="password" placeholder="password" size="20"></label>
+                <label><p>Url: <input id="url" type="text" name="url" placeholder="url" size="20"></p></label>
+                <label>Dirección Ip: <input id="ip" type="text" name="ip" placeholder="ip" size="15"></label>
+            </fieldset>
+            <p>
+                <button id="enviar">Enviar</button>
+            </p>
+        </form>
+        <script type="text/javascript" src="./validate.js"></script>
+    </body>
+</html>
